@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="/public/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 <body>
   <div class="container">
@@ -14,15 +15,16 @@
       <div class="description-section">
         <h2 class="description-title">Summary</h2>
         <p class="description-text">This API is built using Node.js and Express. The app retrieves information about the client's computer using the data sent from the request header. It then returns the IP address, operating system and language of the client in an organized JSON format.</p>
+        <br>
         <p class="description-text">To view your information, add <strong>/api/whoami</strong> at the end of the URL up top.</p>
       </div>
       <div class="description-section">
         <h2 class="description-title">Example Usage</h2>
-        <p class="description-text"><strong>https://observant-linen.glitch.me/api/whoami</strong></p>
+        <code class="description-text">https://observant-linen.glitch.me/api/whoami</code>
       </div>
       <div class="description-section">
         <h2 class="description-title">Example Output</h2>
-        <p class="description-text">{ IP Address: "192.168.1.1", Language: "en-US", Operating System: "Windows NT 10.0; Win64; x64" }</p>
+        <code class="description-text">{ IP Address: "192.168.1.1", Language: "en-US", Operating System: "Windows NT 10.0; Win64; x64" }</code>
       </div>
       
     </div>
